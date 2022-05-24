@@ -8,10 +8,6 @@ This repo automatically builds and publishes versions of [OneDev](https://github
 - `aspriddell/onedev:server`
 - `aspriddell/onedev:server-[version]`
 
-#### CI Agent Images
-- `aspriddell/onedev:agent`
-- `aspriddell/onedev:agent-[version]`
-
 ### Usage
 Follow the installation guide at either https://code.onedev.io/projects/162/files/main/pages/quickstart.md or https://code.onedev.io/projects/162/files/main/pages/installation-guide.md but replace `1dev/server` with the apropriate image above
 
