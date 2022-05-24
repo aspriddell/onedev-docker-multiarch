@@ -62,6 +62,6 @@ jobs:
 
           docker buildx build -f docker/Dockerfile.server --platform $BUILD_PLATFORMS --push -t aspriddell/onedev:server -t aspriddell/onedev:server-${{ steps.release-detection.outputs.tag }} docker
 
-          cp -r agent docker/
-          docker buildx build -f docker/Dockerfile.agent --platform $BUILD_PLATFORMS --push -t aspriddell/onedev:agent -t aspriddell/onedev:agent-${{ steps.release-detection.outputs.tag }} docker
+          # cp -r agent docker/
+          # docker buildx build -f docker/Dockerfile.agent --platform $BUILD_PLATFORMS --push -t aspriddell/onedev:agent -t aspriddell/onedev:agent-${{ steps.release-detection.outputs.tag }} docker
           
