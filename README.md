@@ -2,7 +2,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/aspriddell/onedev?style=flat-square)](https://hub.docker.com/r/aspriddell/onedev)
 
 ### Overview
-This repo automatically builds and publishes versions of [OneDev](https://github.com/theonedev/onedev) Server and CI Agents on a weekly basis.
+This repo builds and publishes versions of [OneDev](https://github.com/theonedev/onedev) Server for consumption on arm64 devices
 
 #### Server Images
 - `aspriddell/onedev:server`
